@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles.ai Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Proxima Nova', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .section {
+            padding: 60px 20px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #007bff, #6f42c1);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin: 0 0 20px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 0 0 40px;
+        }
+
+        .hero button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #ff6500;
+        }
+
+        .content {
+            width: 60%;
+            text-align: left;
+        }
+
+        .content h2 {
+            font-size: 3em;
+            margin: 0 0 20px;
+        }
+
+        .content p {
+            font-size: 1.5em;
+            margin: 0 0 40px;
+        }
+
+        .bullet-points {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+
+        .bullet-points li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        .call-to-action {
+            background: linear-gradient(135deg, #6f42c1, #007bff);
+            color: white;
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .call-to-action a {
+            color: #e4d1cb;
+            text-decoration: none;
+        }
+
+        .call-to-action h2 {
+            font-size: 2em;
+            margin: 0 0 20px;
+        }
+
+        .call-to-action p {
+            font-size: 1.5em;
+            margin: 0 0 20px;
+        }
+
+        .section:nth-child(odd) {
+            background-color: #e0e0e0;
+        }
+
+        .section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero section">
+        <h1>Meet Profiles.ai</h1>
+        <p>Empower non-tech users with advanced AI for personalized marketing.</p>
+        <button>Get Early Access</button>
+    </div>
+
+    <div class="section">
+        <div class="content">
+            <h2>✨ Smart Segments</h2>
+            <p>AI decides <b>who to send to, when, what, and where.</b> Setup without deep ML knowledge.</p> 
+            <ul class="bullet-points">
+                <li><strong>🎯 Who:</strong> Generative segments (Text-to-segment), predictive segments</li>
+                <li><strong>🕐 When:</strong> Intelligent scheduling</li>
+                <li><strong>🖼️ What:</strong> Generative communications (text and pictures)</li>
+                <li><strong>✉️ How:</strong> Right channel (email/notification/etc) for maximum conversion</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="content">
+            <h2>⚖️ Measure and Improve</h2>
+            <p>Drive engagement and improve marketing effectiveness.</p>
+            <ul class="bullet-points">
+                <li><strong>A/B Experiments:</strong> Test different campaign strategies</li>
+                <li><strong>Segment Insights:</strong> Gain valuable insights from segments</li>
+                <li><strong>Feedback Loop:</strong> Continuously improve predictions with real-time data</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="content">
+            <h2>😎 Unified User Profiles</h2>
+            <p>Create unified profiles from multiple data sources, capturing customer interactions in a comprehensive timeline.</p>
+            <ul class="bullet-points">
+                <li><strong>Smart Identity Resolution:</strong> Accurately match and merge customer records</li>
+                <li><strong>Profile Explorer:</strong> Visualize and interact with customer data seamlessly</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="content">
+            <h2>🔮 Predictive Attributes</h2>
+            <p>Create golden embeddings and enable predictive attributes using your historical data.</p>
+            <ul class="bullet-points">
+                <li><strong>Create Golden Embeddings:</strong> Use clickstream data to build customer embeddings</li>
+                <li><strong>Intelligent Attributes:</strong> Self-serve creation of predictive attributes</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="content">
+            <h2>💵 Composable CDP with Zero-Copy Architecture</h2>
+            <p>Flexible and scalable data management with zero-copy architecture and reverse ETL.</p>
+            <ul class="bullet-points">
+                <li><strong>Zero-Copy Architecture:</strong> Prevents data duplication, reducing costs and vendor lock-in</li>
+                <li><strong>Reverse ETL:</strong> Seamless data flow back to your operational systems</li>
+                <li><strong>Rich Integrations:</strong> Connect effortlessly with popular data warehouses and tools (e.g., Databricks, Snowflake, BigQuery, Salesforce, Braze, Airtable, Google Sheets)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section call-to-action">
+        <h2>Join Us in Revolutionizing Customer Engagement</h2>
+        <p>Invest in the future of customer data platforms.</p>
+        <p>For more information, reach out to <a href="mailto:saubhagya.awaneesh@gmail.com">Saubhagya Awaneesh</a>.</p>
+    </div>
+</body>
+</html>
